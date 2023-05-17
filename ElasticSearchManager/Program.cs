@@ -53,10 +53,11 @@ namespace ElasticSearchManager
             ApplicationConfiguration.Initialize();
             //Application.Run(mainForm);
             //Application.Run(new MainForm(_container));
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
+            Application.Run(new DefaultForm());
 
 
-           
+
         }
     }
 }

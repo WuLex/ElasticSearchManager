@@ -39,7 +39,6 @@ namespace ElasticSearchManager
         //    _documentFactory = container.Resolve<IDocumentFactory>();
         //}
 
-
         private async void MainForm_Load(object sender, EventArgs e)
         {
             // 加载所有文档

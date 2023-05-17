@@ -63,7 +63,7 @@ namespace ElasticSearchManager
             // 
             this.lblServerUrl.AutoSize = true;
             this.lblServerUrl.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblServerUrl.Location = new System.Drawing.Point(23, 62);
+            this.lblServerUrl.Location = new System.Drawing.Point(22, 66);
             this.lblServerUrl.Name = "lblServerUrl";
             this.lblServerUrl.Size = new System.Drawing.Size(112, 27);
             this.lblServerUrl.TabIndex = 0;
@@ -73,12 +73,12 @@ namespace ElasticSearchManager
             // txtServerUrl
             // 
             this.txtServerUrl.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtServerUrl.Location = new System.Drawing.Point(141, 55);
+            this.txtServerUrl.Location = new System.Drawing.Point(141, 50);
             this.txtServerUrl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtServerUrl.MinimumSize = new System.Drawing.Size(1, 16);
             this.txtServerUrl.Name = "txtServerUrl";
             this.txtServerUrl.ShowText = false;
-            this.txtServerUrl.Size = new System.Drawing.Size(495, 34);
+            this.txtServerUrl.Size = new System.Drawing.Size(495, 43);
             this.txtServerUrl.TabIndex = 1;
             this.txtServerUrl.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtServerUrl.Watermark = "";
@@ -265,6 +265,7 @@ namespace ElasticSearchManager
             this.dataGridView1.SelectedIndex = -1;
             this.dataGridView1.Size = new System.Drawing.Size(776, 284);
             this.dataGridView1.StripeOddColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.dataGridView1.Style = Sunny.UI.UIStyle.Custom;
             this.dataGridView1.TabIndex = 0;
             // 
             // button1
